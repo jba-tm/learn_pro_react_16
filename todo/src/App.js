@@ -37,12 +37,12 @@ class App extends React.Component {
 
     componentDidMount() {
         let data = localStorage.getItem('todos')
-        this.setState(data!=null?JSON.parse(data):{
+        this.setState(data != null ? JSON.parse(data) : {
             name: 'Adam',
-            todoItems: [{ action: "Buy Flowers", done: false },
-                { action: "Get Shoes", done: false },
-                { action: "Collect Tickets", done: true },
-                { action: "Call Joe", done: false }],
+            todoItems: [{action: "Buy Flowers", done: false},
+                {action: "Get Shoes", done: false},
+                {action: "Collect Tickets", done: true},
+                {action: "Call Joe", done: false}],
             showCompleted: true
         })
     }
@@ -74,7 +74,6 @@ class App extends React.Component {
                 <tr>
                     <td>Description</td>
                     <td>Done</td>
-
                 </tr>
                 </thead>
                 <tbody>{this.todoTableRows(false)}</tbody>
@@ -101,7 +100,6 @@ class App extends React.Component {
 
         </div>
     )
-
 }
 
 export default App;
