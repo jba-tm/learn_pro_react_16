@@ -21,9 +21,12 @@ export class OrdersTable extends React.Component {
                     </tr>
                     </thead>
                     <tbody>
-                    {this.props.orders.map(item =>
-                        <OrdersRow key={item.id} order={item}
-                                   toggleShipped={() => this.props.toggleShipped(item.id, !item.shipped)}/>)}
+                    {this.props.orders.map(order =>
+                        <OrdersRow key={order.id}
+                                   order={order} toggleShipped={() =>
+                            this.props.toggleShipped(order.id, !order.shipped)}
+                        />
+                    )}
                     </tbody>
                 </table>
             </div>

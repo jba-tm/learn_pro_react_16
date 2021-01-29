@@ -3,9 +3,11 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faShippingFast, faExclamationCircle} from "@fortawesome/free-solid-svg-icons";
 
 
-class OrdersRow extends React.Component {
+export class OrdersRow extends React.Component {
     calcTotal = (products) => products.reduce((total, p) => total += p.quantity * p.product.price, 0).toFixed(2);
-    getShipping = (order) => order.shipped ? <FontAwesomeIcon icon={faShippingFast}/> :<FontAwesomeIcon icon={faExclamationCircle}/>
+    getShipping = (order) => order.shipped
+        ? <FontAwesomeIcon icon={faShippingFast} className="text-success"/>
+        :<FontAwesomeIcon icon={faExclamationCircle} className="text-danger"/>
 
     render() {
         return (
@@ -18,7 +20,7 @@ class OrdersRow extends React.Component {
                 </td>
                 <td className="text-center">
                     <button onClick={this.props.toggleShipped} className="btn btn-sm btn-block bg-muted">
-                        {this.getShipping(this.props.shipped)}
+                        {this.getShipping(this.props.order)}
                         <span>{this.props.order.shipped?'Shipped':'Pending'}</span>
                     </button>
                 </td>
