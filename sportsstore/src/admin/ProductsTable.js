@@ -18,7 +18,7 @@ export class ProductsTable extends Component {
                         <th>Name</th>
                         <th>Category</th>
                         <th className="text-right">Price</th>
-                        <th className="text-center"></th>
+                        <th className="text-center"/>
                     </tr>
                     </thead>
                     <tbody>
