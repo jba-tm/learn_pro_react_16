@@ -1,10 +1,13 @@
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import React from "react";
 
+class App extends React.Component{
+  render() {
+    return (
+        <div>
 
-function App() {
-  return (
-      <div></div>
-  );
+        </div>
+    );
+  }
 }
 
 export default App;
