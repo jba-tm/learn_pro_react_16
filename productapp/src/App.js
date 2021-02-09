@@ -1,13 +1,8 @@
-import React from "react";
+import React, {Component} from "react";
+import ProductsAndSuppliers from "./ProductsAndSuppliers";
 
-class App extends React.Component{
-  render() {
-    return (
-        <div>
-
-        </div>
-    );
-  }
+export default class App extends Component {
+    render() {
+        return <ProductsAndSuppliers/>
+    }
 }
-
-export default App;

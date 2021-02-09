@@ -21,14 +21,16 @@ export class ProductEditor extends React.Component {
     }
 
     handleChange = e => {
-        let formData = Array.from(this.state.formData)
+        // let formData = this.state.formData
+        let formData =JSON.parse(JSON.stringify(this.state.formData))
+        console.log(formData)
         formData[e.target.name] = e.target.value
         this.setState({
             formData: formData
         })
     }
 
-    handleClick = e => {
+    handleClick = () => {
         this.props.saveCallback(this.state.formData)
     }
 
@@ -60,5 +62,4 @@ export class ProductEditor extends React.Component {
             </div>
         );
     }
-
 }
