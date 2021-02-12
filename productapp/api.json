@@ -1,0 +1,143 @@
+{
+  "count": 133,
+  "next": "https://yoda.com.tm/apis/comments/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 11,
+      "comment": "Mado bettt",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T19:16:20.561000+05:00",
+      "updated_at": "2020-10-10T19:16:47.155000+05:00",
+      "ulanyjy": {
+        "ady": "Atamyrat",
+        "suraty": null
+      },
+      "brand": 109,
+      "liked": []
+    },
+    {
+      "id": 12,
+      "comment": "Mado beti hem gyty",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T20:51:38.174000+05:00",
+      "updated_at": "2020-10-10T20:51:58.228000+05:00",
+      "ulanyjy": {
+        "ady": "Begli",
+        "suraty": "https://element.com.tm/media/Slider/scaled_image_picker5915216545653412368.jpg"
+      },
+      "brand": 109,
+      "liked": [
+        60,
+        3,
+        28
+      ]
+    },
+    {
+      "id": 13,
+      "comment": "salam",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T21:55:51.802000+05:00",
+      "updated_at": "2020-10-10T21:56:13.295000+05:00",
+      "ulanyjy": {
+        "ady": "bayram",
+        "suraty": "https://element.com.tm/media/Slider/scaled_image_picker7369155366401717187.jpg"
+      },
+      "brand": 109,
+      "liked": []
+    },
+    {
+      "id": 14,
+      "comment": "Заказали limited baget, реально очень вкусно!!!",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:30:00.401000+05:00",
+      "updated_at": "2020-11-04T15:17:24.718000+05:00",
+      "ulanyjy": {
+        "ady": "Atamyrat",
+        "suraty": null
+      },
+      "brand": 92,
+      "liked": [
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "comment": "kafe otmosferasy, hyzmaty gaty gowy dőner gaty suyju dal salatlary suyju",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:31:56.435000+05:00",
+      "updated_at": "2020-10-10T22:44:33.716000+05:00",
+      "ulanyjy": {
+        "ady": "Silap",
+        "suraty": "https://element.com.tm/media/Slider/image_picker_7E39DF66-B63D-4890-9E5A-AFC177453FE4-4790-0000027AC2F9825A.jpg"
+      },
+      "brand": 222,
+      "liked": []
+    },
+    {
+      "id": 16,
+      "comment": "Самые вкусные бурегеры в городе, топ",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:33:05.480000+05:00",
+      "updated_at": "2020-10-10T22:44:30.170000+05:00",
+      "ulanyjy": {
+        "ady": "Silap",
+        "suraty": "https://element.com.tm/media/Slider/image_picker_7E39DF66-B63D-4890-9E5A-AFC177453FE4-4790-0000027AC2F9825A.jpg"
+      },
+      "brand": 46,
+      "liked": []
+    },
+    {
+      "id": 18,
+      "comment": "gaty suyji bishiryarler balyklary",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:34:53.072000+05:00",
+      "updated_at": "2020-10-10T22:44:18.489000+05:00",
+      "ulanyjy": {
+        "ady": "Silap",
+        "suraty": "https://element.com.tm/media/Slider/image_picker_7E39DF66-B63D-4890-9E5A-AFC177453FE4-4790-0000027AC2F9825A.jpg"
+      },
+      "brand": 53,
+      "liked": []
+    },
+    {
+      "id": 19,
+      "comment": "заказали жаренный рис с курицей (не могу вспомнить название блюда), рядом еще бонусом привезли мантоу ( китайские манты) было приятно, спасибо!",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:41:34.765000+05:00",
+      "updated_at": "2020-10-10T22:44:14.171000+05:00",
+      "ulanyjy": {
+        "ady": "Silap",
+        "suraty": "https://element.com.tm/media/Slider/image_picker_7E39DF66-B63D-4890-9E5A-AFC177453FE4-4790-0000027AC2F9825A.jpg"
+      },
+      "brand": 560,
+      "liked": []
+    },
+    {
+      "id": 20,
+      "comment": "очень приятная отмосфера",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:43:25.705000+05:00",
+      "updated_at": "2020-10-10T22:44:21.759000+05:00",
+      "ulanyjy": {
+        "ady": "Silap",
+        "suraty": "https://element.com.tm/media/Slider/image_picker_7E39DF66-B63D-4890-9E5A-AFC177453FE4-4790-0000027AC2F9825A.jpg"
+      },
+      "brand": 534,
+      "liked": []
+    },
+    {
+      "id": 21,
+      "comment": "самое лучшее заведение в ашхабаде для любителей китайской кухни",
+      "tassyklanan": "A",
+      "created_at": "2020-10-10T22:47:40.012000+05:00",
+      "updated_at": "2020-10-10T22:47:50.863000+05:00",
+      "ulanyjy": {
+        "ady": "Silap",
+        "suraty": "https://element.com.tm/media/Slider/image_picker_7E39DF66-B63D-4890-9E5A-AFC177453FE4-4790-0000027AC2F9825A.jpg"
+      },
+      "brand": 32,
+      "liked": []
+    }
+  ]
+}
