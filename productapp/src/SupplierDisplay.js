@@ -62,7 +62,7 @@ export const SupplierDisplay = connectionFunction(
                 //     cancelCallback={this.cancelEditing}/>
             } else {
                 return <div className="m-2">
-                    <ConnectedTable/>
+                    <ConnectedTable needSuppliers={ true } />
                     <div className="text-center">
                         <button className="btn btn-primary m-1"
                                 onClick={this.props.createSupplier}>
